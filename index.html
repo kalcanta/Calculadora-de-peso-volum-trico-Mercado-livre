@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Peso Volumétrico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Peso Volumétrico</h1>
+        <p class="nota">Cálculo de acordo com as regras do Mercado Livre.</p>
+        <img src="https://t.ctcdn.com.br/XhGn9q3V_VO1memmbcix_YZLwBA=/i618282.jpeg" alt="Produto Mercado Livre" class="produto">
+
+        <label for="pais">Escolha o país:</label>
+        <select id="pais">
+            <option value="brasil">Mercado Livre Brasil</option>
+            <option value="uruguai">Mercado Livre Uruguai</option>
+            <option value="argentina">Mercado Livre Argentina</option>
+            <option value="mexico">Mercado Livre México</option>
+            <option value="china">Mercado Livre China</option>
+            <option value="colombia">Mercado Livre Colômbia</option>
+        </select>
+
+        <label for="comprimento">Comprimento (cm):</label>
+        <input type="number" id="comprimento" required>
+
+        <label for="largura">Largura (cm):</label>
+        <input type="number" id="largura" required>
+
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" required>
+
+        <button id="calcular">Calcular Peso Volumétrico</button>
+
+        <h2 id="resultado"></h2>
+        <p class="observacao">
+            <strong>Observação:</strong> Se o peso volumétrico for menor ou igual a 2 kg, usamos o peso físico do seu pacote.
+            <br><br> 
+            Se o peso volumétrico for maior do que 2 kg, usamos o que for maior (físico ou volumétrico).
+        </p>
+    </div>
+    <script src="js_calculado.js"></script>
+</body>
+</html>
