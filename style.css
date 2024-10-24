@@ -37,6 +37,10 @@ label {
     margin-bottom: 5px; /* Reduzido espaço abaixo do rótulo */
 }
 
+label[for="comprimento"] {
+    margin-bottom: 8px; /* Aumentado o espaço abaixo do rótulo do comprimento */
+}
+
 .produto {
     width: 100%; /* Ajusta a largura da imagem para ocupar 100% do container */
     height: auto; /* Mantém a proporção da imagem */
