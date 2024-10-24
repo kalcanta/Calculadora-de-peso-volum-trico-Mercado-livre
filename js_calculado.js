@@ -17,7 +17,7 @@ document.getElementById('calcular').addEventListener('click', function() {
             case 'mexico':
                 divisor = 5000;
                 break;
-            case 'china':
+            case 'chile':
                 divisor = 4505;
                 break;
             case 'colombia':
